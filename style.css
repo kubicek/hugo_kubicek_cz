@@ -1,0 +1,29 @@
+body
+  { color: #fff;
+    background: #199ffd;
+    margin: auto 20%;
+    margin-top: 3%;
+    min-width: 800px;
+    min-height: 600px; }
+
+.container
+  { text-align: center; }
+
+.container h1 span,
+.container .metadata span
+  { display: none; }
+
+.container h1
+  { background: url('hugo_kubicek.png') 50% 50% no-repeat;
+/*    border: 1px solid blue;*/
+    min-width: 562px; 
+    height: 232px; }
+
+.container .metadata
+  { background: url('hugo_metadata.png') 50% 50% no-repeat;
+    min-width: 460px;
+    height: 49px; }
+
+.container object,
+.container embed
+  { border: 1px solid #fff; }
